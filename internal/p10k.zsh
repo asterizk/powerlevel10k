@@ -3640,7 +3640,7 @@ function _p9k_vcs_render() {
         state=CLEAN
       fi
     fi
-    _p9k_vcs_icon
+    # _p9k_vcs_icon
     _p9k_prompt_segment prompt_vcs_$state "${__p9k_vcs_states[$state]}" "$_p9k_color1" "$_p9k__ret" 0 '' ""
     return 0
   fi
